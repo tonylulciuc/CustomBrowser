@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTab2"
+    android:layout_gravity="start"
+    android:choiceMode="singleChoice"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/menu_click_accent_ripple_effect"
+        android:text="@string/prev_page"
+        android:onClick="onPrevPageClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/menu_click_accent_ripple_effect"
+        android:text="@string/next_page"
+        android:onClick="onNextPageClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/menu_click_accent_ripple_effect"
+        android:text="@string/new_page"
+        android:onClick="onAddNewPageClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@xml/menu_click_accent_ripple_effect"
+        android:text="@string/remove_page"
+        android:onClick="onRemovePageClick"/>
+</LinearLayout>
